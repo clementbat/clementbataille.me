@@ -108,7 +108,7 @@
     }
 
     h1 {
-        margin-top: 125px;
+        margin-top: 50px;
         margin-bottom: 40px;
     }
 

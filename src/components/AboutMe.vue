@@ -12,28 +12,16 @@
         <p>
             Things I value in a project: long term vision, ambition, strong culture, trust, ownership, <a href="https://angel.co/blog/product-engineering-at-angellist-talent" target="_blank">product engineering culture</a>.
         </p>
-        <div class="socialLinks">
-            <social-links/>
-        </div>
-        <a href="#work"><img src="../assets/icons/arrow_down.svg" alt="arrow"/></a>
     </section>
 </template>
 
 <script>
-    import SocialLinks from './SocialLinks'
     export default {
         name: 'AboutMe',
-        components: {
-            SocialLinks,
-        },
     }
 </script>
 
 <style scoped>
-
-    .socialLinks {
-        margin: 100px auto;
-    }
 
     img {
         padding: 10px;

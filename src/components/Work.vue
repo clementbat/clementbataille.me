@@ -8,7 +8,7 @@
             </div>
             <p>I am a lead software engineer, working in a team with 3 other engineers</p>
             <p>I built the first iterations of Foxintelligence B2B product from scratch (a data visualization platform), that got us to attract the first paying customers</p>
-            <p>I built a <a href="#treemap">treemap</a> component from scratch</p>
+            <p>I built a <router-link to="/projects#treemap">treemap</router-link> component from scratch</p>
             <p>I worked on our internal solution to aggregate our data quickly. I scaled the solution (horizontal scaling), with more than 10X faster results, tested on 10X more data than currently</p>
             <p>I <a href="https://medium.com/@clementb/what-i-learned-in-my-first-year-as-a-software-engineer-in-a-startup-c078161e5a8e" target="_blank">shared</a> what I learned in my first year as a software engineer (700+ people clapped)</p>
         </section>
@@ -65,7 +65,7 @@
 <style scoped>
 
     section {
-        margin-top: 125px;
+        padding-top: 50px;
     }
 
     h1 {

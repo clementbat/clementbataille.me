@@ -1,9 +1,12 @@
 <template>
     <div id="app">
-        <Menu />
-        <AboutMe id="me"/>
-        <Work id="work"/>
-        <Projects id="projects"/>
+        <Menu/>
+        <transition
+                name="fade"
+                mode="out-in"
+        >
+            <router-view></router-view>
+        </transition>
         <footer>
             <social-links/>
         </footer>
@@ -12,9 +15,6 @@
 
 <script>
     import Menu from './components/Menu.vue'
-    import AboutMe from './components/AboutMe.vue'
-    import Work from './components/Work.vue'
-    import Projects from './components/Projects.vue'
     import SocialLinks from './components/SocialLinks'
 
     export default {
@@ -22,10 +22,7 @@
         components: {
             SocialLinks,
             Menu,
-            AboutMe,
-            Work,
-            Projects,
-        }
+        },
     }
 </script>
 
@@ -38,6 +35,9 @@
         color: #FFF;
         background-color: #282828;
         font-size: 18px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     footer {
@@ -52,6 +52,7 @@
 
     section {
         margin: auto;
+        flex: 1;
     }
 
     p {
@@ -60,7 +61,7 @@
 
     a {
         color: white;
-        transition: color 120ms ease-in 0s;
+        transition: color 50ms ease-in 0s;
     }
 
     a:hover {
@@ -91,6 +92,18 @@
         h2 {
             font-size: 24px;
         }
+    }
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition-duration: 0.1s;
+        transition-property: opacity;
+        transition-timing-function: ease;
+    }
+
+    .fade-enter,
+    .fade-leave-active {
+        opacity: 0
     }
 
 </style>

@@ -1,9 +1,9 @@
 <template>
     <nav>
         <ul>
-            <li><a href="#me">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><router-link to="/">About</router-link></li>
+            <li><router-link to="/work">Work</router-link></li>
+            <li><router-link to="/projects">Projects</router-link></li>
         </ul>
     </nav>
 </template>
