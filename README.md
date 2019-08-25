@@ -20,6 +20,11 @@ npm run build
 npm run test
 ```
 
+### Deploy to clementbataille.me
+```
+npm run deploy
+```
+
 ### Lints and fixes files
 ```
 npm run lint

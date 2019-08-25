@@ -11,14 +11,11 @@
             <a href="#treemapDemo" class="liveDemo">
                 <img src="../assets/icons/play_circle.svg" alt="">Live demo
             </a>
-            <a href="https://clementbat.github.io/projects/treemap/" target="_blank" class="liveDemoLink">
-                <img src="../assets/icons/play_circle.svg" alt="">Live demo
-            </a>
             <a href="https://medium.com/foxintelligence-inside/building-a-treemap-with-javascript-4d789ad43a85"
                target="_blank">
                 <img src="../assets/icons/description.svg" alt="">How it works (blog post)
             </a>
-            <a href="https://github.com/clementbat/clementbat.github.io/blob/master/projects/treemap/index.html" target="_blank">
+            <a href="https://github.com/clementbat/projects/blob/master/treemap/index.html" target="_blank">
                 <img src="../assets/icons/code.svg"/>Code</a>
         </div>
 
@@ -55,10 +52,7 @@
             <a href="#fbBdayDemo" class="liveDemo">
                 <img src="../assets/icons/play_circle.svg" alt="">Live demo
             </a>
-            <a href="https://clementbataille.me/projects/fb-birthday-extract/" target="_blank" class="liveDemoLink">
-                <img src="../assets/icons/play_circle.svg" alt="">Live demo
-            </a>
-            <a href="https://github.com/clementbat/clementbat.github.io/blob/master/projects/fb-birthday-extract/index.html" target="_blank">
+            <a href="https://github.com/clementbat/projects/blob/master/fb-birthday-extract/index.html" target="_blank">
                 <img src="../assets/icons/code.svg"/>Code</a>
         </div>
 
