@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="workSection">
         <section>
             <h1>Work</h1>
             <div class="workTitle" id="fox">
@@ -64,12 +64,17 @@
 
 <style scoped>
 
+    .workSection {
+        margin-top: 64px;
+    }
+
     section {
-        padding-top: 50px;
+        margin-bottom: 50px;
     }
 
     h1 {
-        margin-bottom: 60px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     h2 {

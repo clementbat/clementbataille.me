@@ -99,10 +99,11 @@
     .projects {
         display: flex;
         flex-direction: column;
+        margin-top: 64px;
     }
 
     h1 {
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 40px;
     }
 
