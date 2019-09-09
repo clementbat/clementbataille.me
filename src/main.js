@@ -9,11 +9,13 @@ Vue.config.productionTip = false
 import About from './components/AboutMe'
 import Work from './components/Work'
 import Projects from './components/Projects'
+import TheErrorPage from './components/TheErrorPage'
 
 const routes = [
     { path: '/', component: About },
     { path: '/work', component: Work },
     { path: '/projects', component: Projects },
+    { path: '*', component: TheErrorPage },
 ]
 
 const router = new VueRouter({
