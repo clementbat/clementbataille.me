@@ -7,7 +7,7 @@
             Product engineer
         </h2>
         <p>
-            I'm currently living in Paris and working as a lead software engineer at <a href="https://foxintelligence.fr" target="_blank">Foxintelligence</a> building <a href="https://foxwatch.io" target="_blank">Foxwatch</a>, a data vizualization platform. I like new technologies, startups, travelling, reading and learning things everyday.
+            I'm currently living in Paris and working as a lead software engineer at <a href="https://www.foxintelligence.fr" target="_blank">Foxintelligence</a> building <a href="https://foxwatch.io" target="_blank">Foxwatch</a>, a data vizualization platform. I like new technologies, startups, travelling, reading and learning things everyday.
         </p>
         <p>
             Things I value in a project: long term vision, ambition, strong culture, trust, ownership, <a href="https://angel.co/blog/product-engineering-at-angellist-talent" target="_blank">product engineering culture</a>.
