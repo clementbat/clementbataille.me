@@ -6,7 +6,7 @@
                 <h2><a href="https://foxintelligence.fr" target="_blank">Foxintelligence</a></h2>
                 <div>2 years, Paris</div>
             </div>
-            <p>I am a lead software engineer, working in a team with 3 other engineers</p>
+            <p>I was a lead software engineer, working in a team with 3 other engineers</p>
             <p>I built the first iterations of Foxintelligence B2B product from scratch (a data visualization platform), that got us to attract the first paying customers</p>
             <p>I built a <router-link to="/projects#treemap">treemap</router-link> component from scratch</p>
             <p>I worked on our internal solution to aggregate our data quickly. I scaled the solution (horizontal scaling), with more than 10X faster results, tested on 10X more data than currently</p>
