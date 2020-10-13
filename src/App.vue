@@ -41,7 +41,7 @@
     }
 
     footer {
-        margin-top: 200px;
+        margin-top: 20px;
     }
 
     html, body {

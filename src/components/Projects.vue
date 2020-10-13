@@ -9,11 +9,11 @@
         </p>
         <div class="projectLinks">
             <a href="#treemapDemo" class="liveDemo">
-                <img src="../assets/icons/play_circle.svg" alt="">Live demo
+                <img src="../assets/icons/play_circle.svg" alt="play icon">Live demo
             </a>
             <a href="https://medium.com/foxintelligence-inside/building-a-treemap-with-javascript-4d789ad43a85"
                target="_blank">
-                <img src="../assets/icons/description.svg" alt="">How it works (blog post)
+                <img src="../assets/icons/description.svg" alt="blog icon">How it works (blog post)
             </a>
             <a href="https://github.com/clementbat/projects/blob/master/treemap/index.html" target="_blank">
                 <img src="../assets/icons/code.svg"/>Code</a>
@@ -42,6 +42,41 @@
 
         <div class="divider"></div>
 
+        <div class="projectTitle" id="treemap">
+            <h2>Find my VIE</h2>
+        </div>
+        <p>
+           It's basically a simpler (and mobile) version of the job ads on 
+           <a href="https://www.civiweb.com/FR/offre-liste.aspx" target="_blank">Civiweb</a>. 
+           It's scrapping the job ads, using AWS lambdas, SQS (queueing service), and Elasticsearch as a database. 
+        </p>
+        <div class="projectLinks">
+            <a href="https://findmyvie.com" target="_blank" class="liveDemo">
+                <img src="../assets/icons/play_circle.svg" alt="play icon">Live demo
+            </a>
+        </div>
+
+        <div class="findMyVieDemo"
+             :style="{
+                    'border': '2px solid #fff'
+             }"
+        >
+            <a href="https://findmyvie.com" target="_blank" class="treemapDemo__overlay"
+                 :style="{
+                        'opacity' : 0.8,
+                        'pointer-events': 'auto'
+
+                     }"
+            >
+                <button>Live demo 🗺</button>
+            </a>
+            <div class="findMyVieScreen">
+                <img src="../assets/images/find-my-vie.png" alt="find my vie screenshot">
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
         <div class="projectTitle" id="fb-bday">
             <h2>Facebook birthdays extractor</h2>
         </div>
@@ -50,7 +85,7 @@
         </p>
         <div class="projectLinks">
             <a href="#fbBdayDemo" class="liveDemo">
-                <img src="../assets/icons/play_circle.svg" alt="">Live demo
+                <img src="../assets/icons/play_circle.svg" alt="play icon">Live demo
             </a>
             <a href="https://github.com/clementbat/projects/blob/master/fb-birthday-extract/index.html" target="_blank">
                 <img src="../assets/icons/code.svg"/>Code</a>
@@ -96,6 +131,11 @@
 
 <style scoped>
 
+    .findMyVieScreen > img {
+        width: 100%;
+        height: 100%;
+    }
+
     .projects {
         display: flex;
         flex-direction: column;
@@ -127,6 +167,7 @@
 
     section {
         max-width: 570px;
+        margin-bottom: 250px;
     }
 
     .projectTitle {
@@ -172,6 +213,18 @@
         min-height: 70vh;
     }
 
+    .findMyVieDemo {
+        align-self: center;
+        margin-top: 40px;
+        width: 1000px;
+        background-color: #404040;
+        box-shadow: rgba(0, 0, 0, .7) 10px 15px 40px 20px;
+        position: relative;
+        border-radius: 4px;
+        max-width: 90vw;
+        background: #f2f4f7;
+    }
+
     .fbBdayDemo {
         align-self: center;
         margin-top: 40px;
@@ -190,6 +243,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
+        left: 0;
         transition: opacity 300ms ease 0s;
     }
 
@@ -199,6 +253,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
+        left: 0;
         transition: opacity 300ms ease 0s;
     }
 
