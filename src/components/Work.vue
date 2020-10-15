@@ -6,8 +6,8 @@
         <h2><a href="https://actiondesk.io" target="_blank">Actiondesk</a> (YC S20)</h2>
         <div>10 months, San Francisco & remote</div>
       </div>
-      <p>I was a software engineer, building a spreadsheet alongside the founding team (we were 5)</p>
-      <p>I helped the tech team to be more rigorous (with an engineering mindset) and ship better quality code (with re-architecture, separation of concerns, adding tests, simplify when possible and code reviews)</p>
+      <p>As a a software engineer, I built a spreadsheet alongside the founding team (we were 5)</p>
+      <p>I made the tech team more rigorous (with an engineering mindset) and ship better quality code (with re-architecture, separation of concerns, adding tests, simplify when possible and code reviews)</p>
       <p>I helped the whole team on agile rituals, to communicate more, and be more efficient on scoping features and delivering value</p>
     </section>
     <section>
@@ -15,7 +15,7 @@
         <h2><a href="https://foxintelligence.fr" target="_blank">Foxintelligence</a></h2>
         <div>2 years, Paris</div>
       </div>
-      <p>I was a lead software engineer, working in a team with 3 other engineers</p>
+      <p>As a lead software engineer, I worked in a team with 3 other engineers</p>
       <p>I built the first iterations of Foxintelligence B2B product from scratch (a data visualization platform), that
         got us to attract the first paying customers</p>
       <p>I built a
