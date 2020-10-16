@@ -36,7 +36,11 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
+    },
+    "eslint.validate": [
+      "javascript",
+      "vue"
+    ]
   },
   "postcss": {
     "plugins": {
